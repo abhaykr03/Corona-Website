@@ -1,0 +1,2 @@
+# Corona-Website
+A website made to spread awareness of corona virus and how to prevent from it. This website also focus on the contribution to PM CARES fund. All the information published here are from the reliable source and people can count  on me also any donation from this site will directly go to the PM CARES account and not me. So please help and donate as much as possible from your side. Stay Home and stay safe.  
