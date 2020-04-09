@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  /* background-color: #5e2bff; */
+}
+#nav-bar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navbar {
+  padding: 0 !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 60px 85px 0 85px;
+}
+.navbar-brand {
+  display: inline-block;
+  z-index: 1;
+  white-space: nowrap;
+}
+.navbar-nav li {
+  padding: 0px 10px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-size: 24px;
+  font-weight: 500;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+/* Banner Section */
+#banner {
+  background-color: #5e2bff;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#banner > .container {
+  margin-top: 200px;
+}
+.promo-title {
+  font-size: 68px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+#banner a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.btn-primary {
+  box-shadow: none;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 30px;
+  display: inline-block;
+  background-color: #5e2bff;
+}
+.banner-img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.col-md-7 {
+  z-index: 1;
+  color: #000;
+}
+
+/* Spreads section  */
+#corona-spreads {
+  color: #fff;
+  background-color: #5e2bff;
+}
+#corona-spreads .row {
+  margin-top: 80px;
+}
+.container > .title1 {
+  text-align: center;
+  font-size: 68px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+#corona-spreads {
+  padding: 80px 0;
+}
+.img-circle {
+  width: 230px;
+  height: 230px;
+}
+.col-md-4 h4 {
+  margin-top: 20px;
+}
+
+/* Symptoms section */
+#symptoms {
+  margin: 0;
+  background-color: #5e2bff;
+}
+#symptoms .col-md-6 h1 {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 44px;
+  font-weight: 700;
+  color: #fff;
+}
+#symptoms .col-md-6 p {
+  color: #fff;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* Prevention section */
+
+#prevention {
+  color: #fff;
+  background-color: #5e2bff;
+  padding-top: 60px;
+}
+.container > .title2 {
+  text-align: center;
+  font-size: 68px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+#prevention .row {
+  margin-top: 80px;
+}
+#prevention h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+#prevention p {
+  color: #fff;
+  font-size: 34px;
+  font-weight: regular;
+}
+.p-img {
+  text-align: center;
+}
+
+/* Others Section */
+#others {
+  background-color: #5e2bff;
+  padding-top: 120px;
+  color: #fff;
+}
+#others > .container .row {
+  margin-top: 80px;
+}
+.others-main-heading {
+  text-align: center;
+  font-size: 68px;
+  font-weight: 700;
+}
+/* Curve Section */
+#curve {
+  background-color: #5e2bff;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.curve-image {
+  margin-top: 30px;
+  padding-top: 15px;
+  max-width: 1200px;
+}
+}
+#curve > .container h1 {
+  text-align: left;
+  font-size: 68px;
+  font-weight: 700;
+}
+#curve > .container > .row {
+  margin-top: 80px;
+  max-width: 600px;
+}
+.curve-links ul {
+  list-style-type: none;
+}
+.curve-links ul li {
+  display: inline;
+  margin: 5px 5px;
+}
+.curve-links ul li a {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.curve-img {
+  width:100%;
+  padding: 0 30px;
+}
+
+/* QRCODE Section */
+#qrcode > .container > .row {
+  margin-top: 80px;
+}
+.qch1 {
+  text-align: left;
+  font-size: 68px;
+  font-weight: 700;
+  color: #5e2bff;
+}
+.qcpara {
+  font-size: 34px;
+  font-weight: regular;
+  color: #5e2bff;
+}
+.qrcode-btns ul {
+  list-style-type: none;
+}
+.qrcode-btns ul li {
+  display: inline;
+  margin: 5px 5px;
+}
+.qrcode-btns ul li a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.qch5 {
+  text-align: center;
+  margin-left:30%;
+  padding: 5px 5px;
+  color: #5e2bff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.test {
+  text-align: right;  
+}
+.qrcode-img {
+  padding-right: 25px;
+}
+/* Footer Section */
+#footer {
+  margin-top: 65px;
+  background-color: #e84855;
+  height: 70px;
+}
+#footer > .tagline > p {
+  color: #fff;
+  text-align: center;
+  padding-top: 25px;
+}
+
+
