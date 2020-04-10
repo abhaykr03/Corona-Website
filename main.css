@@ -18,7 +18,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  margin: 60px 85px 0 85px;
+  margin: 60px 0 0 0;
 }
 .navbar-brand {
   display: inline-block;
@@ -187,7 +187,6 @@
   padding-top: 15px;
   max-width: 1200px;
 }
-}
 #curve > .container h1 {
   text-align: left;
   font-size: 68px;
@@ -212,7 +211,7 @@
   text-decoration: none;
 }
 .curve-img {
-  width:100%;
+  width: 100%;
   padding: 0 30px;
 }
 
@@ -245,14 +244,14 @@
 }
 .qch5 {
   text-align: center;
-  margin-left:30%;
+  margin-left: 30%;
   padding: 5px 5px;
   color: #5e2bff;
   font-size: 24px;
   font-weight: bold;
 }
 .test {
-  text-align: right;  
+  text-align: right;
 }
 .qrcode-img {
   padding-right: 25px;
@@ -268,5 +267,3 @@
   text-align: center;
   padding-top: 25px;
 }
-
-
